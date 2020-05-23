@@ -1,4 +1,11 @@
+
+
 <?php
+
+
+
+$pesan = $_POST['pesan'];
+$user = $_POST['user'];
 /**
  * This file is part of the Elephant.io package
  *
@@ -17,7 +24,7 @@ require 'vendor/autoload.php';
 $client = new Client(new Version2X('http://1.1.26.116:3001'));
 
 $client->initialize();
-$client->emit('new_order', ['test' => 'test']);
+$client->emit('abu_hanif', ['user' => $user,'pesan' => $pesan,'waktu'=>date('Y-m-d H:i:s')]);
 $client->close();
 
 

@@ -9,9 +9,9 @@
 
 </body>
 <script type="text/javascript">
-	var socket = io.connect("http://localhost:3001");
+	var socket = io.connect("http://1.1.26.116:3001");
 
-	socket.on("new_order",function(data){
+	socket.on("abi",function(data){
 		console.log(data);
 	})
 </script>
