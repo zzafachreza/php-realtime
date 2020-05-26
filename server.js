@@ -18,7 +18,7 @@ logger.info('Socket IO > listening PORT');
 
 
 var app = express();
-var https_server = http.createServer(app).listen(3001,'1.1.26.116');
+var https_server = http.createServer(app).listen(3001,'localhost');
 
 function emitNewOrder(https_server){
 

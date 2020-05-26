@@ -2,9 +2,10 @@
   "name": "php_and_socket",
   "version": "1.0.0",
   "description": "An Application that display real time orderes withaout refresh the paage",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Abu Hanif",
   "license": "ISC",
